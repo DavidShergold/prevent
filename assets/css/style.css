@@ -9,6 +9,21 @@
     gap: 20px;
 }
 
+.navbar-brand {
+    font-size: 40px; 
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif; 
+    letter-spacing: 2px;
+}
+
+
+
+html {
+    scroll-padding-top: 80px;
+}
+
+
+
 .jumbotron {
     background-color: #004080;
     padding: 50px 20px;
