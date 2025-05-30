@@ -31,7 +31,7 @@
     height: auto;
 }
 
-#what, #prevent, #risks, #concerns {
+#what, #prevent, #risks, #concerns, #hope  {
     background-color: #004080;
     padding: 40px;
     border-radius: 10px;
@@ -78,3 +78,19 @@ p {
     height: 400px; /* Set a fixed height */
     object-fit: cover; /* Ensures images maintain aspect ratio and fill the space */
 }
+
+#hope .row {
+    display: flex;
+    align-items: center;
+}
+
+#hope img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#what, #prevent, #risks, #concerns, #hope {
+    margin: 40px auto; /* Increases vertical spacing */
+}
+
