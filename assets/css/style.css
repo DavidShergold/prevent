@@ -36,5 +36,21 @@
     padding: 40px;
     border-radius: 10px;
     color: white;
-    margin: 20px auto; /* Adds top/bottom margin and centers horizontally */
+    margin: 20px auto; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-weight: 700; /* Makes headings bold */
+}
+
+p {
+    font-weight: 400; /* Normal body text */
+}
+
+.display-4 {
+    font-weight: bold;
 }
