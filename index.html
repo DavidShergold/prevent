@@ -20,6 +20,27 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Report Concern Modal -->
+<div class="modal fade" id="reportModal" tabindex="-1" aria-labelledby="reportModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="reportModalLabel">Submit a Concern</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="reportForm" action="success.html" method="POST">
+                    <div class="mb-3">
+                        <label for="concernDetails" class="form-label">Details of Concern</label>
+                        <textarea class="form-control" id="concernDetails" name="concernDetails" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 
 <!-- Navigation Bar -->
@@ -87,8 +108,10 @@
     <div class="row text-center">
         <div id="prevent" class="col-12">
             <h2><i class="fas fa-shield-alt"></i> What is Prevent?</h2>
-            <p>The Prevent strategy aims to safeguard individuals from radicalization by raising awareness and providing
-                resources.</p>
+            <p>Prevent is a government strategy designed to safeguard individuals from radicalization. It focuses on
+                early intervention, raising awareness, and providing support to those at risk. By fostering education,
+                resilience, and community engagement, Prevent aims to counter extremist influences and create a safer
+                society for all.</p>
         </div>
     </div>
 
@@ -96,8 +119,11 @@
         <div class="row text-center">
             <div id="risks" class="col-12">
                 <h2><i class="fas fa-exclamation-triangle"></i> Recognizing Risks</h2>
-                <p>Common signs of radicalization include isolation, changes in beliefs, and support for extremist
-                    ideologies.</p>
+                <p>Recognizing the signs of radicalization is crucial in preventing harm and protecting individuals at
+                    risk. Early awareness allows for timely intervention, support, and education before extremist
+                    influences take hold. By understanding behavioral changes, online activity, and social shifts,
+                    communities can work together to safeguard vulnerable individuals and promote a culture of
+                    resilience and inclusion.</p>
             </div>
         </div>
     </div>
@@ -180,8 +206,15 @@
             <div id="concerns" class="col-12">
                 <h2><i class="fas fa-bullhorn"></i> Reporting Concerns</h2>
                 <p>If you recognize signs of radicalization, report concerns through trusted channels to ensure safety.
+                    <br>
+                    All reports submitted through this platform are treated with the utmost confidentiality. <br>
+                    Your privacy and security are our priority, and no personal information will be shared without
+                    consent.<br>
+                    Every concern is handled discreetly to ensure the safety and well-being of all individuals involved.
                 </p>
-                <a href="report.html" class="btn btn-danger mt-2">Report a Concern</a>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#reportModal">
+                        Report a Concern
+                    </button>   
             </div>
         </div>
     </div>
@@ -210,12 +243,13 @@
 
 
     <!-- Footer -->
-    <footer class="bg-primary text-white text-center py-3 mt-5">
-        <div class="container">
-            <p>&copy; 2023 PREVENT. All rights reserved.</p>
-            <p>For more information, visit our <a href="https://www.gov.uk/government/organisations/home-office"
-                    class="text-white" target="_blank" rel="noopener noreferrer">official website</a>.</p>
-        </div>
+    <footer class="bg-primary text-white text-center py-3 mt-5 container-fuid">
+        <p>&copy; 2023 PREVENT. All rights reserved.</p>
+        <p>For more information, visit our
+            <a href="https://www.gov.uk/government/organisations/home-office" class="text-white" target="_blank"
+                rel="noopener noreferrer">
+                official website</a>.
+        </p>
     </footer>
 
 </html>

@@ -10,19 +10,20 @@
 }
 
 .navbar-brand {
-    font-size: 40px; 
+    font-size: 40px;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
 }
 
-
+.navbar-nav .nav-link:hover {
+    color: #FFD700 !important;
+    transition: color 0.3s ease-in-out;
+}
 
 html {
     scroll-padding-top: 80px;
 }
-
-
 
 .jumbotron {
     background-color: #004080;
@@ -30,40 +31,46 @@ html {
 }
 
 .jumbotron h1 {
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 .jumbotron p {
-    color: #fffefe; 
+    color: #fffefe;
 }
 
 .jumbotron {
     position: relative;
 }
 
-#gov img   {
+#gov img {
     width: 50%;
     height: auto;
 }
 
-#what, #prevent, #risks, #concerns, #hope  {
+#what,
+#prevent,
+#risks,
+#concerns,
+#hope {
     background-color: #004080;
     padding: 40px;
     border-radius: 10px;
     color: white;
-    margin: 20px auto; 
+    margin: 20px auto;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2 {
-    font-weight: 700; /* Makes headings bold */
+h1,
+h2 {
+    font-weight: 700;
 }
 
+
 p {
-    font-weight: 400; /* Normal body text */
+    font-weight: 400;
 }
 
 .display-4 {
@@ -75,9 +82,9 @@ p {
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    width: 80%; /* Controls width */
+    width: 80%;
     text-align: center;
-    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+    background: rgba(0, 0, 0, 0.6);
     padding: 10px;
     border-radius: 5px;
 }
@@ -85,13 +92,14 @@ p {
 .carousel-caption h2,
 .carousel-caption h3,
 .carousel-caption p {
-    color: white; /* Ensures contrast over images */
+    color: white;
 }
 
 .carousel-item img {
-    width: 100%; /* Ensures images fill the container */
-    height: 400px; /* Set a fixed height */
-    object-fit: cover; /* Ensures images maintain aspect ratio and fill the space */
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
 }
 
 #hope .row {
@@ -105,7 +113,11 @@ p {
     border-radius: 10px;
 }
 
-#what, #prevent, #risks, #concerns, #hope {
-    margin: 40px auto; /* Increases vertical spacing */
+#what,
+#prevent,
+#risks,
+#concerns,
+#hope {
+    margin: 40px auto;
 }
 
