@@ -1,0 +1,16 @@
+.jumbotron {
+    background-color: #004080;
+    padding: 50px 20px;
+}
+
+.jumbotron h1 {
+    color: #ffffff; 
+}
+
+.jumbotron p {
+    color: #fffefe; 
+}
+
+.jumbotron {
+    position: relative;
+}
