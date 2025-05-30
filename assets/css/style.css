@@ -1,3 +1,14 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.d-flex {
+    display: flex;
+    gap: 20px;
+}
+
 .jumbotron {
     background-color: #004080;
     padding: 50px 20px;
@@ -14,7 +25,16 @@
 .jumbotron {
     position: relative;
 }
+
 #gov img   {
     width: 50%;
     height: auto;
+}
+
+#what, #prevent, #risks, #concerns {
+    background-color: #004080;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    margin: 20px auto; /* Adds top/bottom margin and centers horizontally */
 }
