@@ -14,3 +14,7 @@
 .jumbotron {
     position: relative;
 }
+#gov img   {
+    width: 50%;
+    height: auto;
+}
