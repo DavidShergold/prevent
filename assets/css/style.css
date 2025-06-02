@@ -131,6 +131,25 @@ img.img-fluid {
 }
 
 #gov img {
-    width: 50%;
+    width: 70%;
     height: auto;
+    padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container #hope #concerns #risks #what #prevent {
+        margin-left: 20px;
+        margin-left: auto;
+    }
 }

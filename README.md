@@ -88,3 +88,4 @@ Further improvements are planned to enhance **performance and accessibility**, i
 - [Bootstrap](https://getbootstrap.com/) for responsive styling and UI components.
 - [Font Awesome](https://fontawesome.com/) for icons used in navigation.
 - [W3C Validator](https://validator.w3.org/) for ensuring semantic HTML.
+- [CoPilot](https://www.microsoft.com/) for proofchecking and troubleshooting.
